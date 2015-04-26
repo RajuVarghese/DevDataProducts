@@ -20,7 +20,8 @@ shinyServer(function(input, output) {
   })
   
   output$plot <- renderPlot({
-    print (ggplot (dat (), aes (x=Year, y=Percentile, group=Country, color=Country)) + geom_line())
+    graph <- ggplot (dat (), aes (x=Year, y=Percentile, group=Country, color=Country))
+    print (graph + geom_line() + ylab ("% of population"))
   })
   
   output$table <- renderDataTable ({
