@@ -738,7 +738,7 @@ hljs.initHighlightingOnLoad();
    
   
 
-
+<style>.footer {  color: gray;  position: fixed;  top: 90%;  text-align:right;  width:100%;}.page {  color: lightgray;  position: fixed;  top: 1%;  text-align:right;  width:100%;  font-size: 10%;}</style>
 
 
 
@@ -756,8 +756,7 @@ hljs.initHighlightingOnLoad();
 
 <p><small>Project of the <a href="http://coursera.org">Coursera</a> <a href="https://www.coursera.org/specialization/jhudatascience/1">Data Science specialization</a> course #9 <a href="https://class.coursera.org/devdataprod-013">Developing Data Products</a> course. This <em>R Presentation</em> is the pitch of the developed <a href="https://rajuvarghese.shinyapps.io/tiapp/">Shiny app</a> using the R language.</small></p>
 
-<p>author: Raju Varghese // 
-date: April 26, 2015</p>
+<div class="footer">Raju Varghese // April 26, 2015</div>
 
 </div>
 
@@ -765,9 +764,19 @@ date: April 26, 2015</p>
 <section data-transition="linear" data-transition-speed="default">
 <h3>Introduction</h3>
 <div class="slideContent" >
-<p>The shiny app hosted on shinyapps.io shows the top income share of the population of selected countries during the last 150 years.</p>
+<p>The interactive shiny app</p>
 
-<p>Recently, this topic has invoked much discussion. The effects of inequality on countries has been heatedly debated ever since Thomas Picketty&#39;s book was published in 2014.</p>
+<ul>
+<li>is hosted on shinyapps.io</li>
+<li>shows the top income share of the population of selected countries during the last ~150 years</li>
+<li>shows rising inequality in some countries</li>
+<li>deals with a hot topic ever since <a href="http://en.wikipedia.org/wiki/Thomas_Piketty">Thomas Picketty</a>&#39;s <a href="http://en.wikipedia.org/wiki/Capital_in_the_Twenty-First_Century">book</a> was published in 2014.</li>
+<li>includes information on the real data used here</li>
+<li>help information for the user</li>
+<li>details on the application and the author</li>
+</ul>
+
+<div class="page">2/5</div>
 
 </div>
 
@@ -775,17 +784,17 @@ date: April 26, 2015</p>
 <section data-transition="linear" data-transition-speed="default">
 <h3>Application Usage</h3>
 <div class="slideContent" >
-<p>The shiny application has two columns:</p>
+<p>The shiny application has two panels:</p>
 
 <ul>
-<li>Controls
+<li>Input Widgets (left panel) 
 
 <ul>
-<li>Country selector to choose the required set of countries</li>
-<li>Year slider to select the first and last year that is to be displayed in the output.</li>
-<li>Percentile radio button. Choose the top 10%, 1%, 0.1% or 0.01%</li>
+<li>Country selector to choose a set of countries</li>
+<li>Year slider to select the first and last year</li>
+<li>Income Percentile radio button. Choose the top 10%, 1%, 0.1% or 0.01% percentile</li>
 </ul></li>
-<li>Output
+<li>Output (right panel)
 
 <ul>
 <li>Chart display</li>
@@ -793,6 +802,8 @@ date: April 26, 2015</p>
 <li>Additional information and help</li>
 </ul></li>
 </ul>
+
+<div class="page">3/5</div>
 
 </div>
 
@@ -805,13 +816,15 @@ date: April 26, 2015</p>
 <pre><code>[1] &quot;Argentina Australia Canada China Colombia Denmark Finland France Germany India Indonesia Ireland Italy Japan Korea Malaysia Mauritius Netherlands New Zealand Norway Portugal Singapore South Africa Spain Sweden Switzerland Taiwan Tanzania United Kingdom United States Uruguay&quot;
 </code></pre>
 
+<div class="page">4/5</div>
+
 </div>
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
 <h3>Conclusion</h3>
 <div class="slideContent" >
-<p>This simple application shows that some countries have rising inequality whereas others have decreased over the years. It would be interesting to correlate this with productivity, unemployment and the Gini coefficient over the same period.</p>
+<p>This simple application shows that some countries have a sharp rise in inequality. It would be interesting to correlate this with productivity, unemployment and the Gini coefficient over the same period.</p>
 
 <p>Links:</p>
 
@@ -820,6 +833,8 @@ date: April 26, 2015</p>
 <li><a href="http://rpubs.com/RajuVarghese/74602">R Presentation</a> (this document)</li>
 <li><a href="https://github.com/RajuVarghese/DevDataProducts/">Github repository</a> with the source of the above two</li>
 </ul>
+
+<div class="page">5/5</div>
 
 </div>
 

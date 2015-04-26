@@ -30,22 +30,28 @@ Top Income Share by Countries
 Introduction
 ========================================================
 
-The shiny app hosted on shinyapps.io shows the top income share of the population of selected countries during the last 150 years.
+The interactive shiny app
 
-Recently, this topic has invoked much discussion. The effects of inequality on countries has been heatedly debated ever since [Thomas Picketty](http://en.wikipedia.org/wiki/Thomas_Piketty)'s [book](http://en.wikipedia.org/wiki/Capital_in_the_Twenty-First_Century) was published in 2014.
+* is hosted on shinyapps.io
+* shows the top income share of the population of selected countries during the last ~150 years
+* shows rising inequality in some countries
+* deals with a hot topic ever since [Thomas Picketty](http://en.wikipedia.org/wiki/Thomas_Piketty)'s [book](http://en.wikipedia.org/wiki/Capital_in_the_Twenty-First_Century) was published in 2014.
+* includes information on the real data used here
+* help information for the user
+* details on the application and the author
 
 <div class="page">2/5</div>
 
 Application Usage
 ========================================================
 
-The shiny application has two columns:
+The shiny application has two panels:
 
-* Controls
-  * Country selector to choose the required set of countries
-  * Year slider to select the first and last year that is to be displayed in the output.
-  * Percentile radio button. Choose the top 10%, 1%, 0.1% or 0.01%
-* Output
+* Input Widgets (left panel) 
+  * Country selector to choose a set of countries
+  * Year slider to select the first and last year
+  * Income Percentile radio button. Choose the top 10%, 1%, 0.1% or 0.01% percentile
+* Output (right panel)
   * Chart display
   * Table display
   * Additional information and help
@@ -68,7 +74,7 @@ The data was obtained from the [Paris School of Economics](http://topincomes.g-m
 Conclusion
 ========================================================
 
-This simple application shows that some countries have rising inequality whereas others have decreased over the years. It would be interesting to correlate this with productivity, unemployment and the Gini coefficient over the same period.
+This simple application shows that some countries have a sharp rise in inequality. It would be interesting to correlate this with productivity, unemployment and the Gini coefficient over the same period.
 
 Links:
 
